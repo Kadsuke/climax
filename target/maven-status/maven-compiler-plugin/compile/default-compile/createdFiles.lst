@@ -1,0 +1,14 @@
+com\climax\Main.class
+com\climax\implementation\GenericFileReader.class
+com\climax\entity\AvgSalary.class
+com\climax\controller\VueController.class
+com\climax\App.class
+com\climax\entity\Client.class
+module-info.class
+com\climax\controller\AccueilClimaxController.class
+com\climax\implementation\JSONReader.class
+com\climax\factory\FileReaderFactory.class
+com\climax\implementation\CSVReader.class
+com\climax\implementation\TextFileReader.class
+com\climax\implementation\XMLReader.class
+com\climax\interfaces\IFileReader.class
