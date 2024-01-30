@@ -1,5 +1,4 @@
-# climax
-# Application de Rapports Clients
+# Application de Climax Clients
 
 Cette application Java permet de lire des données clients à partir de fichiers texte, CSV, XML ou JSON, et génère des rapports statistiques.
 
@@ -20,17 +19,17 @@ Cette application Java permet de lire des données clients à partir de fichiers
 
 ### Construction et Exécution Locales
 
-1. Clonez le dépôt : `git clone https://github.com/votre-utilisateur/client-report-app.git`
-2. Accédez au répertoire du projet : `cd client-report-app`
+1. Clonez le dépôt : `git clone https://github.com/Kadsuke/climax.git`
+2. Accédez au répertoire du projet : `cd climax`
 3. Compilez le projet : `mvn clean install`
-4. Exécutez l'application : `java -jar target/client-report-app.jar`
+4. Exécutez l'application : `java -jar target/climaxProject-1.0-SNAPSHOT-shaded.jar`
 
 ### Utilisation avec Docker
 
 1. Construisez l'image Docker : `docker build -t client-report-app .`
-2. Exécutez l'image dans un conteneur : `docker run -p 8080:8080 client-report-app`
+2. Exécutez l'image dans un conteneur : `docker run -p 8083:8083 climax`
 
-L'application sera accessible à l'adresse http://localhost:8080.
+L'application sera accessible à l'adresse http://localhost:8083.
 
 ---
 
